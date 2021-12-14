@@ -1,3 +1,7 @@
+// Write a C++ program to display a group of student details (name, roll_no, address, zip code).
+// Create a class named Student, use default constructor to initialize values,
+// then take two functions for i/p (get)& o/p(disp).
+
 #include <iostream>
 using namespace std;
 class Student {

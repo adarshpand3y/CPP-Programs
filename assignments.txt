@@ -1,0 +1,37 @@
+1. Friend Function 1:-
+    Create two classes DM and DB which store the value of distances. DM stores distances in metres and centimetres and DB in feet and inches. Write a CPP program that can read values for the class objects and add one object of DM with another object of DB. Use a friend function to carry out the addition operation. The object that stores the results may be a DM object or DB object, depending on the units in which the results are required. The display should be in the format of feet and inches or metres and centimetres depending on the object on display.
+
+2. Friend Function 2:-
+    Create a class Sample, take two variables in it. Using a friend function find out the mean of two values given by the user.
+
+3. Constructor Problem:-
+    Write a C++ program to display a group of student details (name, roll_no, address, zip code). Create a class named Student, use default constructor to initialize values, then take two functions for i/p (get)& o/p(disp).
+
+4. Operator Overloading 1:-
+    Write a CPP program to take length, breadth and height of two cube objects as user inputs and calculate the volumes of the same. Use operator overloading to find the volume of a third cube object by using the addition of the first two objects length, breadth and height.
+
+5. Operator Overloading 2:-
+    Create a class Distance with members feet & inches. Enter the distances from the user and then add two distances of two objects. Finally return the addition of distances by overloading ‘+’ operator. Display the result using a disp() function.
+
+6. Operator Overloading 3:-
+    Create a class FLOAT that contains one data member. Overload all the four arithmetic operators so that they operate on the objects of FLOAT.
+
+7. Inheritance 1:-
+    Assume that a bank maintains two kinds of accounts for customers, one called as savings account and the other as current account. The savings account provides compound interest and withdrawal facilities but no cheque book facility. The current account provides cheque book facility but no interest. Current account holders should also maintain a minimum balance and if the balance falls below this level, a service charge is imposed.
+    Create a class account that stores customer name, account number and type account. From this derive the classes cur_acct and sav_acct to make them more specific to their requirements. Include necessary member functions in order to achieve the following tasks.
+        a. Accept deposit from the customer and update the balance.
+        b. Display the balance.
+        c. Compute and deposit interest.
+        d. Permit withdrawal and update the balance.
+        e. Check for the minimum balance, impose penalty necessary and update the balance.
+        Do not use any constructors. Use member functions to initialize the class members.
+
+8. Inheritance 2:-
+    An educational institution wishes to maintain a database of its employees. The database is divided into a number of classes whose hierarchical relationships are shown in the fig below. The figure also shows the minimum information required for each class. specify all the classes and define functions to create the database and retreive individual information as and when required.
+
+9. Virtual Function:-
+    Create a base class called shape. Use this class to store two double type values that could be used to compute the area of figures. Derive two specific classes called triangle and rectangle from the base shape. Add to the base class, a member function get_data() to initialize the base class data members and another member function display_area() as a virtual function and redefine this function in the derived classes to suit their requirements.
+    Using these three classes, design a program that will accept dimensions of a triangle or a rectangle interactively and display the area.
+    Remember the two values given as input will be treated as lengths of two sides in the case of rectangles and as base and height in the case of triangles and used as follows.
+        Area of rectangle = x * y
+        Area of triangle = 1/2 * x * y
